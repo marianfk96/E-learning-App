@@ -1,0 +1,22 @@
+
+.main-container h2 {
+    color: green;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.main-container .documents-container {
+    border-bottom: black 0.5px solid;
+    margin-left: 60px;
+    height: fit-content;
+    width: 90%;
+    padding-bottom: 10px;
+}
+
+.main-container button {
+    margin-left: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: white;
+}

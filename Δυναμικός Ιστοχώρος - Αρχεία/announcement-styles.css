@@ -1,0 +1,48 @@
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container h3 {
+    font-size: 18px;
+    margin: 10px;
+    padding-bottom: 30px;
+    border-bottom: 0.5px solid black;
+}
+
+.main-container h2 {
+    color: green;
+    font-size: 16px;
+    margin: 10px;
+}
+.main-container .buttons {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: none;
+}
+
+.main-container .buttons a {
+    text-decoration: underline;
+}
+
+.main-container .announcement-container {
+    border-bottom: black 0.5px solid;
+    margin-left: 60px;
+    height: fit-content;
+    width: 90%;
+}
+
+.main-container a {
+    color: blue;
+}
+
+.main-container button {
+    margin-left: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: white;
+}

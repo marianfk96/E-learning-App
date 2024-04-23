@@ -1,0 +1,42 @@
+
+.main-container h2 {
+    color: green;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.main-container .contact-container {
+    border-bottom: black 0.5px solid;
+    margin-left: 60px;
+    height: fit-content;
+    width: 90%;
+    position: relative;
+}
+
+.main-container .contact-container form ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.main-container .contact-container form ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.main-container .contact-container form ul li:last-of-type {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.main-container .contact-container form .submit-btn {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+.main-container .contact-container:last-of-type {
+    border: none;
+}

@@ -1,0 +1,43 @@
+
+.main-container button {
+    height: 40px;
+    width: fit-content;
+    background-color: rgb(74, 111, 165);
+    color: white;
+    margin: 30px;
+}
+
+.main-container button a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.main-container .table-container {
+    margin-left: 30px;
+    border: 0.5px black solid;
+    height: auto;
+    width: 970px;
+    padding: 0;
+}
+
+.main-container .table-container .th-container {
+    width: 120px;
+    border-right: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    text-align: left;
+}
+
+#email {
+    width: 250px;
+}
+
+.main-container .table-container .th-container a {
+    text-decoration: none;
+}
+.main-container .table-container table tr{
+    height: auto;
+    width: 970px;
+    display: flex;
+    flex-direction: row;
+}
